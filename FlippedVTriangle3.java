@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FlippedVTriangle2 {
+public class FlippedVTriangle3 {
      public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         
@@ -11,7 +11,8 @@ public class FlippedVTriangle2 {
                 System.out.print("  ");
             }
             for(int j=1;j<=i;j++){
-                System.out.print(j +" ");
+                System.out.print((char)(i+64) +" ");
+                
                
             }
             System.out.println();
